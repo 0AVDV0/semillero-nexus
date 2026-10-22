@@ -1,0 +1,43 @@
+
+site_name: Semillero Nexus
+site_description: Investigación, documentación, divulgación y creación de contenido científico
+site_url: https://0avdv0.github.io/semillero-nexus/
+
+theme:
+  name: material
+  language: es
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo oscuro
+
+    - scheme: slate
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo claro
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - Inicio: index.md
+  - Investigación: investigacion/index.md
+  - Documentación: documentacion/index.md
+  - Divulgación: divulgacion/index.md
+  - Creación de contenido: creacion-contenido/index.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.superfences
