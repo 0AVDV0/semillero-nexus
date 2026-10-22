@@ -1,43 +1,63 @@
-
-site_name: Semillero Nexus
-site_description: Investigación, documentación, divulgación y creación de contenido científico
+site_name: NEXUS | Semillero de Física Teórica
+site_description: Investigación, formación y divulgación desde el Semillero Nexus del Programa de Ingeniería Física de la Universidad del Cauca.
 site_url: https://0avdv0.github.io/semillero-nexus/
+site_author: Semillero Nexus de Física Teórica
+repo_url: https://github.com/0AVDV0/semillero-nexus
+repo_name: GitHub
+copyright: © Semillero Nexus · Programa de Ingeniería Física · Universidad del Cauca
 
 theme:
   name: material
   language: es
-  palette:
-    - scheme: default
-      primary: indigo
-      accent: cyan
-      toggle:
-        icon: material/weather-night
-        name: Cambiar a modo oscuro
-
-    - scheme: slate
-      primary: indigo
-      accent: cyan
-      toggle:
-        icon: material/weather-sunny
-        name: Cambiar a modo claro
-
+  logo: assets/img/nexus-oscuro.webp
+  favicon: assets/img/nexus-oscuro.webp
   features:
     - navigation.tabs
-    - navigation.sections
     - navigation.top
+    - navigation.sections
     - search.suggest
     - search.highlight
     - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo oscuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo claro
+  font:
+    text: Inter
+    code: Roboto Mono
 
 nav:
   - Inicio: index.md
+  - Sobre Nexus:
+      - Quiénes somos: sobre-nexus.md
+      - Plan de trabajo: plan-de-trabajo.md
   - Investigación: investigacion/index.md
   - Documentación: documentacion/index.md
   - Divulgación: divulgacion/index.md
+  - Nuestros eventos: nuestros-eventos.md
   - Creación de contenido: creacion-contenido/index.md
+
+extra_css:
+  - assets/css/nexus-v3.css
 
 markdown_extensions:
   - admonition
   - attr_list
   - pymdownx.details
   - pymdownx.superfences
+  - toc:
+      permalink: true
+
+plugins:
+  - search
