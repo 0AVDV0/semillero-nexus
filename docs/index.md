@@ -8,7 +8,7 @@ hide:
   <section class="nx-hero" aria-labelledby="nx-main-title">
     <div class="nx-hero__main">
       <span class="nx-hero__eyebrow"><span class="nx-status-dot"></span> UNIVERSIDAD DEL CAUCA · INGENIERÍA FÍSICA</span>
-      <h1 id="nx-main-title">NEXUS<span class="nx-hero__dot">.</span></h1>
+      <h1 id="nx-main-title">NEXUS</h1>
       <p class="nx-hero__headline">Conectamos ideas.<br><span>Expandimos la física.</span></p>
       <p class="nx-hero__summary">Un semillero de <strong>física teórica</strong> donde la curiosidad se convierte en investigación, el aprendizaje se comparte y la ciencia encuentra nuevas formas de llegar a todos.</p>
       <div class="nx-hero__buttons">
@@ -24,7 +24,8 @@ hide:
     <div class="nx-hero__visual">
       <div class="nx-glow nx-glow--cyan"></div>
       <div class="nx-glow nx-glow--violet"></div>
-      <img src="assets/img/nexus-oscuro.webp" alt="Identidad gráfica de NEXUS, Semillero de Física Teórica" loading="eager">
+      <img class="nx-logo--light" src="assets/img/logo-nexus-claro.png" alt="Logotipo oficial de NEXUS, Semillero de Física Teórica" loading="eager" width="1120" height="960">
+      <img class="nx-logo--dark" src="assets/img/logo-nexus-oscuro-fondo.png" alt="Logotipo oficial de NEXUS, versión para fondo oscuro" loading="eager" width="2048" height="1755">
       <div class="nx-hero__visual-label"><span class="nx-status-dot"></span> Ciencia que conecta</div>
     </div>
   </section>
@@ -81,28 +82,83 @@ hide:
   <section class="nx-section nx-events" aria-labelledby="nx-events-title">
     <div class="nx-section__topline">
       <div><span class="nx-overline">NEXUS EN MOVIMIENTO</span><h2 id="nx-events-title">Nuestros eventos<span class="nx-purple">.</span></h2></div>
-      <div class="nx-events__intro"><p>Conversaciones, conferencias y experiencias para compartir ciencia. Conoce nuestras actividades y su archivo visual.</p><a class="nx-text-link" href="nuestros-eventos/">Ver todos los eventos <span aria-hidden="true">↗</span></a></div>
+      <div class="nx-events__intro"><p>Flyers de nuestras charlas y actividades: una memoria visual del conocimiento que compartimos.</p><a class="nx-text-link" href="nuestros-eventos/">Ver todos los eventos <span aria-hidden="true">↗</span></a></div>
     </div>
     <div class="nx-events__grid">
-      <a class="nx-event" href="nuestros-eventos/#redes-neuronales-cuanticas">
-        <div class="nx-event__image"><img src="assets/img/eventos/redes-neuronales-cuanticas.jpg" alt="Flyer de la charla Redes neuronales cuánticas"><span class="nx-event__image-tag">08 OCT 2026</span></div>
-        <div class="nx-event__details"><span>CHARLA · FÍSICA CUÁNTICA</span><h3>Redes neuronales cuánticas</h3><p>Introducción e implementación · Kevin Esteban Potosí</p><span class="nx-event__go">Ver evento ↗</span></div>
+      <a class="nx-event" href="nuestros-eventos/#que-es-realmente-un-tensor">
+        <div class="nx-event__image"><img loading="lazy" src="assets/img/eventos/que-es-un-tensor.jpg" alt="Flyer de la charla ¿Qué es realmente un tensor?"><span class="nx-event__image-tag">05 NOV 2026</span></div>
+        <div class="nx-event__details"><span>CHARLA · FÍSICA MATEMÁTICA</span><h3>¿Qué es realmente un tensor?</h3><p>Más allá de los vectores · Brayan Hernando Reyes Triana</p><span class="nx-event__go">Ver evento ↗</span></div>
       </a>
-      <a class="nx-event" href="nuestros-eventos/#reconexion-magnetica-mediada-por-plasmoides">
-        <div class="nx-event__image"><img src="assets/img/eventos/reconexion-magnetica.jpg" alt="Flyer de la charla Reconexión magnética mediada por plasmoides"><span class="nx-event__image-tag">15 OCT 2026</span></div>
-        <div class="nx-event__details"><span>CHARLA · FÍSICA DE PLASMAS</span><h3>Reconexión magnética mediada por plasmoides</h3><p>Presentación · Johan Gabriel Cortes Valencia</p><span class="nx-event__go">Ver evento ↗</span></div>
+      <a class="nx-event" href="nuestros-eventos/#la-espectroscopia">
+        <div class="nx-event__image"><img loading="lazy" src="assets/img/eventos/espectroscopia.jpg" alt="Flyer de la charla inaugural sobre espectroscopía"><span class="nx-event__image-tag">21 OCT 2026</span></div>
+        <div class="nx-event__details"><span>CHARLA INAUGURAL · ÓPTICA</span><h3>La espectroscopía</h3><p>Del color al micromundo y las estrellas · Luis Fernando Echeverri E.</p><span class="nx-event__go">Ver evento ↗</span></div>
       </a>
     </div>
-    <p class="nx-events__note">Los flyers se conservan como archivo de las convocatorias publicadas por el semillero.</p>
+    <p class="nx-events__note">También puedes explorar las charlas de octubre y consultar los registros audiovisuales en nuestro canal de YouTube.</p>
+  </section>
+
+  <section class="nx-section nx-community" aria-labelledby="nx-community-title">
+    <div class="nx-section__topline">
+      <div><span class="nx-overline">SEGUIMOS CONECTADOS</span><h2 id="nx-community-title">Aprende, participa y <em>vuelve a cada charla.</em></h2></div>
+      <p>Encuentra las grabaciones, conoce los enlaces del semillero o inscríbete para formar parte de Nexus.</p>
+    </div>
+    <div class="nx-community__grid">
+      <article class="nx-community__card nx-community__card--video">
+        <div class="nx-community__icon" aria-hidden="true">▶</div>
+        <h3>Charlas en YouTube</h3>
+        <p>Visita nuestro canal para consultar los registros audiovisuales de las actividades.</p>
+        <a href="charlas-grabadas/" class="nx-text-link">Conocer la videoteca <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="nx-community__card nx-community__card--join">
+        <div class="nx-community__icon" aria-hidden="true">✧</div>
+        <h3>¿Quieres hacer parte de Nexus?</h3>
+        <p>Únete a una comunidad que aprende, investiga y comparte física.</p>
+        <a href="participa/" class="nx-text-link">Cómo participar <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="nx-community__card nx-community__card--links">
+        <div class="nx-community__icon" aria-hidden="true">⌁</div>
+        <h3>Nuestros enlaces</h3>
+        <p>Encuentra los códigos y recursos para conectar con nuestras actividades.</p>
+        <a href="participa/#enlaces-del-semillero" class="nx-text-link">Ver accesos <span aria-hidden="true">↗</span></a>
+      </article>
+    </div>
+  </section>
+
+    <section class="nx-section nx-conoce" id="conoce-nexus" aria-labelledby="nx-conoce-title">
+    <div class="nx-conoce__content">
+      <span class="nx-overline">CONOCE NUESTRO SEMILLERO</span>
+      <h2 id="nx-conoce-title">La física es el <em>nexo</em> que nos une.</h2>
+      <p>Conecta tu pasión por la ciencia con una comunidad dedicada a aprender, investigar y compartir conocimiento desde la Universidad del Cauca.</p>
+      <p>En Nexus encuentras espacios de formación, charlas y proyectos para seguir explorando las preguntas que nos inspira la física.</p>
+      <div class="nx-conoce__actions">
+        <a class="nx-btn nx-btn--bright" href="sobre-nexus/">Conoce el semillero <span aria-hidden="true">↗</span></a>
+        <a class="nx-btn nx-btn--ghost" href="participa/">Cómo participar <span aria-hidden="true">→</span></a>
+      </div>
+      <small>El afiche conserva su código QR original. Puedes ampliar la imagen para verlo completo.</small>
+    </div>
+    <a class="nx-conoce__poster" href="assets/img/comunidad/afiche-presentacion-nexus.jpg" target="_blank" rel="noopener noreferrer" aria-label="Abrir el afiche de presentación de Nexus a tamaño completo">
+      <img loading="lazy" src="assets/img/comunidad/afiche-presentacion-nexus.jpg" alt="Afiche promocional del Semillero Nexus con su logotipo, invitación a descubrir la física y código QR" width="639" height="1600">
+      <span class="nx-conoce__expand" aria-hidden="true">Ver afiche completo ↗</span>
+    </a>
   </section>
 
   <section class="nx-bottom" aria-labelledby="nx-bottom-title">
     <div>
-      <span class="nx-overline">HACIA EL FUTURO</span>
-      <h2 id="nx-bottom-title">La física se construye <em>entre todos.</em></h2>
-      <p>Desde el Programa de Ingeniería Física de la Universidad del Cauca, Nexus impulsa una cultura de curiosidad científica, colaboración y divulgación.</p>
-      <a class="nx-btn nx-btn--bright" href="plan-de-trabajo/">Conoce nuestro plan 2026–2027 <span aria-hidden="true">↗</span></a>
+      <span class="nx-overline">SIGUE EXPLORANDO</span>
+      <h2 id="nx-bottom-title">Conecta con <em>Nexus</em> también desde Linktree.</h2>
+      <p>Al final de esta página encontrarás el código QR de nuestros enlaces para acceder rápidamente a recursos, contenidos y espacios digitales del semillero.</p>
+      <a class="nx-btn nx-btn--bright" href="participa/#enlaces-del-semillero">Ver más accesos <span aria-hidden="true">↗</span></a>
+      <div class="nx-linktree-home">
+        <div>
+          <span class="nx-overline">QR DE LINKTREE</span>
+          <h3>Escanéalo desde tu celular</h3>
+          <p>Escanea el código con tu celular o abre directamente nuestros enlaces desde el botón.</p>
+          <a class="nx-linktree-direct" href="https://linktr.ee/SemilleroNexus" target="_blank" rel="noopener noreferrer">Abrir Linktree ↗</a>
+        </div>
+        <a class="nx-linktree-home__qr" href="https://linktr.ee/SemilleroNexus" target="_blank" rel="noopener noreferrer" aria-label="Abrir Linktree de Nexus">
+          <img src="assets/img/comunidad/qr-linktree-oficial.png" alt="Código QR oficial de Linktree del Semillero NEXUS" loading="lazy" width="2048" height="2048">
+        </a>
+      </div>
     </div>
-    <div class="nx-bottom__rings" aria-hidden="true"><span>NX</span></div>
   </section>
 </div>

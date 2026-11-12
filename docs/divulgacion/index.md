@@ -17,3 +17,8 @@ Consulta los flyers, fechas y datos de las convocatorias compartidas por el semi
 
 !!! note "Programación"
     Las actividades previstas y los anuncios de eventos se actualizarán conforme existan fechas y detalles confirmados.
+
+
+## Charlas grabadas
+
+Además del archivo de flyers, puedes visitar la [videoteca de Nexus](../charlas-grabadas.md) para acceder al canal de YouTube.
