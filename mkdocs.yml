@@ -1,16 +1,16 @@
-site_name: NEXUS | Semillero de Física Teórica
-site_description: Investigación, formación y divulgación desde el Semillero Nexus del Programa de Ingeniería Física de la Universidad del Cauca.
+﻿site_name: NEXUS | Semillero de FÃ­sica TeÃ³rica
+site_description: InvestigaciÃ³n, formaciÃ³n y divulgaciÃ³n desde el Semillero Nexus del Programa de IngenierÃ­a FÃ­sica de la Universidad del Cauca.
 site_url: https://0avdv0.github.io/semillero-nexus/
-site_author: Semillero Nexus de Física Teórica
+site_author: Semillero Nexus de FÃ­sica TeÃ³rica
 repo_url: https://github.com/0AVDV0/semillero-nexus
 repo_name: GitHub
-copyright: © Semillero Nexus · Programa de Ingeniería Física · Universidad del Cauca
+copyright: Â© Semillero Nexus Â· Programa de IngenierÃ­a FÃ­sica Â· Universidad del Cauca
 
 theme:
   name: material
   language: es
-  logo: assets/img/nexus-oscuro.webp
-  favicon: assets/img/nexus-oscuro.webp
+  logo: assets/img/logo-nexus-header-dia.webp
+  favicon: assets/img/logo-nexus-header-dia.webp
   features:
     - navigation.tabs
     - navigation.top
@@ -40,16 +40,21 @@ theme:
 nav:
   - Inicio: index.md
   - Sobre Nexus:
-      - Quiénes somos: sobre-nexus.md
+      - QuiÃ©nes somos: sobre-nexus.md
       - Plan de trabajo: plan-de-trabajo.md
-  - Investigación: investigacion/index.md
-  - Documentación: documentacion/index.md
-  - Divulgación: divulgacion/index.md
+  - Divisiones:
+      - InvestigaciÃ³n: investigacion/index.md
+      - DocumentaciÃ³n: documentacion/index.md
+      - DivulgaciÃ³n: divulgacion/index.md
+      - CreaciÃ³n de contenido: creacion-contenido/index.md
   - Nuestros eventos: nuestros-eventos.md
-  - Creación de contenido: creacion-contenido/index.md
+  - Charlas grabadas: charlas-grabadas.md
+  - Únete: participa.md
+  - Charlas grabadas: charlas-grabadas.md
+  - Ãšnete: participa.md
 
 extra_css:
-  - assets/css/nexus-v3.css
+  - assets/css/nexus-v8.css
 
 markdown_extensions:
   - admonition
@@ -58,6 +63,6 @@ markdown_extensions:
   - pymdownx.superfences
   - toc:
       permalink: true
-
 plugins:
   - search
+
