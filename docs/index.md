@@ -136,9 +136,9 @@ hide:
       </div>
       <small>El afiche conserva su código QR original. Puedes ampliar la imagen para verlo completo.</small>
     </div>
-    <a class="nx-conoce__poster" href="assets/img/comunidad/afiche-presentacion-nexus.jpg" target="_blank" rel="noopener noreferrer" aria-label="Abrir el afiche de presentación de Nexus a tamaño completo">
+    <a class="nx-conoce__poster nx-poster-trigger" href="assets/img/comunidad/afiche-presentacion-nexus.jpg" aria-label="Ampliar afiche de presentación de Nexus sin salir de la página">
       <img loading="lazy" src="assets/img/comunidad/afiche-presentacion-nexus.jpg" alt="Afiche promocional del Semillero Nexus con su logotipo, invitación a descubrir la física y código QR" width="639" height="1600">
-      <span class="nx-conoce__expand" aria-hidden="true">Ver afiche completo ↗</span>
+      <span class="nx-conoce__expand" aria-hidden="true">Ampliar afiche ⤢</span>
     </a>
   </section>
 
@@ -161,4 +161,20 @@ hide:
       </div>
     </div>
   </section>
+
+
+  <!-- Visor accesible, sin abrir otra pestaña. Esc, X o clic fuera para cerrar. -->
+  <dialog class="nx-lightbox" id="nx-afiche-visor" aria-label="Afiche de presentación de Nexus ampliado">
+    <div class="nx-lightbox__toolbar">
+      <span>Presentación de NEXUS</span>
+      <div class="nx-lightbox__actions">
+        <button type="button" class="nx-lightbox__zoom" aria-label="Ampliar para leer el afiche">Ampliar +</button>
+        <button type="button" class="nx-lightbox__close" aria-label="Cerrar afiche">Cerrar ✕</button>
+      </div>
+    </div>
+    <div class="nx-lightbox__stage">
+      <img class="nx-lightbox__image" alt="Afiche completo del Semillero Nexus, con código QR" loading="eager">
+    </div>
+    <p class="nx-lightbox__hint">Pulsa fuera del afiche o la tecla Esc para cerrar. Usa «Ampliar» si deseas leer los detalles.</p>
+  </dialog>
 </div>

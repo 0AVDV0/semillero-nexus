@@ -1,10 +1,10 @@
-﻿site_name: NEXUS | Semillero de FÃ­sica TeÃ³rica
-site_description: InvestigaciÃ³n, formaciÃ³n y divulgaciÃ³n desde el Semillero Nexus del Programa de IngenierÃ­a FÃ­sica de la Universidad del Cauca.
+site_name: "Semillero de F\u00edsica"
+site_description: Investigación, formación y divulgación desde el Semillero Nexus del Programa de Ingeniería Física de la Universidad del Cauca.
 site_url: https://0avdv0.github.io/semillero-nexus/
-site_author: Semillero Nexus de FÃ­sica TeÃ³rica
+site_author: Semillero Nexus de Física Teórica
 repo_url: https://github.com/0AVDV0/semillero-nexus
 repo_name: GitHub
-copyright: Â© Semillero Nexus Â· Programa de IngenierÃ­a FÃ­sica Â· Universidad del Cauca
+copyright: © Semillero Nexus · Programa de Ingeniería Física · Universidad del Cauca
 
 theme:
   name: material
@@ -40,21 +40,22 @@ theme:
 nav:
   - Inicio: index.md
   - Sobre Nexus:
-      - QuiÃ©nes somos: sobre-nexus.md
+      - Quiénes somos: sobre-nexus.md
       - Plan de trabajo: plan-de-trabajo.md
   - Divisiones:
-      - InvestigaciÃ³n: investigacion/index.md
-      - DocumentaciÃ³n: documentacion/index.md
-      - DivulgaciÃ³n: divulgacion/index.md
-      - CreaciÃ³n de contenido: creacion-contenido/index.md
+      - Investigación: investigacion/index.md
+      - Documentación: documentacion/index.md
+      - Divulgación: divulgacion/index.md
+      - Creación de contenido: creacion-contenido/index.md
   - Nuestros eventos: nuestros-eventos.md
   - Charlas grabadas: charlas-grabadas.md
   - Únete: participa.md
-  - Charlas grabadas: charlas-grabadas.md
-  - Ãšnete: participa.md
 
 extra_css:
-  - assets/css/nexus-v8.css
+  - assets/css/nexus-v10.css
+
+extra_javascript:
+  - assets/js/nexus-visor.js
 
 markdown_extensions:
   - admonition
@@ -65,4 +66,3 @@ markdown_extensions:
       permalink: true
 plugins:
   - search
-
